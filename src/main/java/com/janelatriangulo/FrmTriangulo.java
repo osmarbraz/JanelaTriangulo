@@ -38,15 +38,15 @@ public class FrmTriangulo extends javax.swing.JFrame {
 
         jLabel1.setText("Base:");
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(17, 18, 27, 16);
+        jLabel1.setBounds(17, 18, 80, 16);
 
         jLabel2.setText("Altura");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(17, 75, 32, 16);
+        jLabel2.setBounds(17, 75, 80, 16);
 
         jLabel3.setText("Área:");
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(17, 134, 27, 16);
+        jLabel3.setBounds(17, 134, 70, 16);
         jPanel1.add(JTFBase);
         JTFBase.setBounds(17, 35, 77, 22);
         jPanel1.add(JTFAltura);
@@ -54,7 +54,7 @@ public class FrmTriangulo extends javax.swing.JFrame {
 
         JLArea.setText("0.0");
         jPanel1.add(JLArea);
-        JLArea.setBounds(17, 156, 15, 16);
+        JLArea.setBounds(17, 156, 80, 16);
 
         jPanel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
@@ -85,10 +85,10 @@ public class FrmTriangulo extends javax.swing.JFrame {
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addGap(26, 26, 26)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(JBFechar)
-                    .addComponent(JBLimpar)
-                    .addComponent(JBCalcular))
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(JBCalcular, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(JBLimpar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(JBFechar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(29, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
